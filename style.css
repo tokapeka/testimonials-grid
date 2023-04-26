@@ -15,6 +15,7 @@ body {
 .grid-item {
     margin-bottom: 20px;
     padding: 20px;
+    border-radius: 7px;
 }
 
 #testimonial-1 {
@@ -38,4 +39,52 @@ body {
 
 #testimonial-5 {
     background-color: #ffffff;
+}
+
+@media (min-width: 576px) {
+    .container {
+        display: flex;
+        max-width: 1200px;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+
+    #testimonial-5 {
+        flex-basis: 24%;
+    }
+
+    #main-left-container {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 74%;
+
+    }
+
+    #top-subcontainer {
+        display: flex;
+        flex-basis: 50%;
+        justify-content: space-between;
+    }
+
+    #bottom-subcontainer {
+        display: flex;
+        flex-basis: 50%;
+        justify-content: space-between;
+    }
+
+    #testimonial-1 {
+        flex-basis: 64%;
+    }
+    
+    #testimonial-2 {
+        flex-basis: 34%;
+    }
+    
+    #testimonial-3 {
+        flex-basis: 34%;
+    }
+    
+    #testimonial-4 {
+        flex-basis: 64%;
+    }
 }
