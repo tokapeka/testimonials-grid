@@ -41,6 +41,19 @@ body {
     background-color: #ffffff;
 }
 
+.testimonial-author {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.testimonial-author img {
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+
+
 @media (min-width: 576px) {
     .container {
         display: flex;
@@ -57,16 +70,9 @@ body {
         display: flex;
         flex-direction: column;
         flex-basis: 74%;
-
     }
 
-    #top-subcontainer {
-        display: flex;
-        flex-basis: 50%;
-        justify-content: space-between;
-    }
-
-    #bottom-subcontainer {
+    #top-subcontainer, #bottom-subcontainer {
         display: flex;
         flex-basis: 50%;
         justify-content: space-between;
